@@ -1,0 +1,82 @@
+body{
+  background-image: url(https://i.imgur.com/5EjPmlz.jpg);
+  padding-top: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App{
+  background-color: #3f3160;
+  min-height:500px;
+  width: 510px;
+  margin: 40px auto;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+.App h3{
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: larger;
+  font-family: cursive;
+}
+
+#form input{
+  background-color: #00FFFF;
+  border: 0; 
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  margin-right: 5px;
+  margin-left: 10px;
+  padding: 0 15px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+#form input::placeholder{
+  color: #fff
+}
+
+#form input:focus{
+  outline: none;
+}
+
+#form button{
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+  border: 0;
+  background-color:#b6d72c ; 
+}
+
+#form button:focus{
+  outline: none;
+}
+
+#form button:hover{
+  background-color: #000;
+  color:#fff;
+}
+
+.List{
+  background-color: plum;
+  margin-bottom: 10px;
+  width: 350px;
+  border-radius: 5px;
+  color: rgba(66, 38, 102,);
+  margin-right: 20px;
+  height: 30px;
+  padding-top: 5px;
+  font-size: larger;
+  justify-content: space-between;
+}
+
+.footer p{
+  text-align: center;
+  color: bisque;
+  font-weight: 200;
+  font-family: cursive;
+}
